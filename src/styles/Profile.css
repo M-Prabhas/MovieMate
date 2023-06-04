@@ -1,0 +1,193 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+
+.Profilepage{
+    width:100vw;
+    min-height:100vh;
+    overflow-x:hidden;
+    background-image: linear-gradient(to bottom,white,pink);
+}
+.Navbar{
+    height:5rem;
+    width:100vw;
+    background:rgb(46, 42, 42);
+    color:white;
+    font-size: 2rem;
+    display:flex;
+    flex-direction: row;
+}
+.Navbar strong{
+    font-size: 3.1rem;
+    padding-top:1rem;
+    padding-left: 1rem;
+}
+.Navbar .menu{
+   display:inline;
+   position:absolute;
+   right:1.8rem;
+   top:1.6rem;
+   cursor: pointer;
+}
+.menubar{
+    position:absolute;
+    top:5rem;
+    background-color: rgb(46, 42, 42);
+    height:87vh;
+    padding-top: 17rem;
+    padding-left: 40rem;
+    width:100vw;
+    font-size: 1.7rem;
+    color:#c6ddef;
+    font-family: 'Dancing Script', cursive;
+    overflow:hidden;
+    line-height: 2;
+    z-index:10;
+    cursor:pointer;
+}
+.complete{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:5rem;
+    min-height:89vh;
+    width:100vw;
+}
+.details{
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+    line-height:1.3;
+    color:rgb(68, 100, 3);
+}
+.details img{
+    border:solid 5px grey;
+    height:15rem;
+    width:15rem;
+    border-radius: 10px;  
+    margin-bottom: 1.22rem;
+}
+
+.details button{
+    margin-top: 1rem;
+    width:17rem;
+    height:2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+    background-color: cadetblue;
+    border:solid black 3px;
+    border-radius: 10px;
+    padding: 2px;
+    cursor: pointer;
+}
+.watchList{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    font-size: 2rem;
+    color:black;
+    font-weight: bold;
+}
+.statements{
+    position:absolute;
+    top:1rem;
+    right:1rem;
+    border:solid 1px black;
+    background-color: rgba(243, 252, 248, 0.811);
+    color:black;
+    font-size: 1rem;
+    padding:3px;
+    font-family: 'Lobster', cursive;
+    z-index:4;
+}
+
+.glossary{
+    position:absolute;
+    left:38rem;
+    top:3rem;
+    z-index:4;
+    display: grid;
+    height:13rem;
+    width:20rem;
+    grid-template-columns:6rem 6rem 6rem;
+    gap: 5px;
+    padding-top:10px;
+    padding-left:8px;
+    padding-bottom: 0;
+    background-color: #c6ddef;
+    border:solid black 3px;
+    border-radius: 10px;
+}
+.glossary img{
+    height:5rem;
+    width:5rem;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+
+.changeusernameform{
+    height:20rem;
+    width:25rem;
+    border:2px greenyellow solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:5rem;
+    left:37vw;
+    background-color: aliceblue;
+}
+
+.changepasswordform,.changeusernameform input{
+    font-size:1.23rem ;
+    border-radius: 10px; 
+    width:18rem;
+    height:1.95rem;
+    margin-bottom: 1.4rem;
+}
+
+.changepasswordform,.changeusernameform button{
+    font-size:1.23rem ;
+    border-radius: 10px; 
+    width:18rem;
+    height:1.96rem;
+}
+
+
+
+.changepasswordform,.changeusernameform input:focus{
+    font-size:1.23rem ;
+    border-radius: 10px; 
+    outline: none;
+}
+
+
+.changepasswordform{
+    height:20rem;
+    width:25rem;
+    border:2px greenyellow solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:5rem;
+    left:37vw;
+    background-color: aliceblue;
+}

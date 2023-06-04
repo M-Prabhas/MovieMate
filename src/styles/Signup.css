@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+.Signup{
+    height: 100vh;
+    width:100vw;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom,pink,white);
+}
+.Signupsection{
+    margin-top:12vh;
+    margin-left:37vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:9vh;
+    border:black solid 5px;
+    width:27vw;
+    height:auto;
+    background-image: linear-gradient(to right,rgb(247, 247, 139),rgb(179, 172, 172));
+    font-family: 'Dancing Script', cursive;
+}
+.Signupsection input{
+    display:inline-block;
+    margin-bottom: 8px;
+    min-width: 200px;
+    height:2rem;
+    font-size: 1.23rem;
+    border-radius: 5px;
+    font-family: 'Crimson Text', serif;
+    padding: 5px;
+}
+.Signupsection a{
+    font-size: 1.3rem;
+}
+.Signupsection input:focus{
+    outline: none;
+}
+.Signupsection hr{
+    background-color: rgb(243, 212, 212);
+    width:23vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Signupsection button{
+    height:2rem;
+    width:8rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: azure;
+    font-family: 'Crimson Text', serif;
+}
